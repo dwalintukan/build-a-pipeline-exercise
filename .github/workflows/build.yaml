@@ -15,6 +15,7 @@ jobs:
         with: 
           otp-version: '24.3'
           elixir-version: '1.13.4'
-      - run: ls /lib/x86_64-linux-gnu/
       - run: mix deps.get
+        working-directory: ./build_a_pipeline
       - run: mix text
+        working-directory: ./build_a_pipeline
