@@ -31,7 +31,7 @@ asdf install elixir 1.13
 brew install postgres
 ```
 
-## Requirements
+## Pipeline Requirements
 
 1. Trigger the pipeline to run during a PR merge to `main`.
 2. Tests need to pass before allowing the PR merge. 
