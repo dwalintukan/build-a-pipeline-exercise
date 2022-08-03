@@ -11,6 +11,7 @@ Using the starter Elixir/Phoenix project, build a Github Actions CI/CD pipeline.
 1. Elixir 1.13
 2. Erlang/OTP 24
 3. Some IDE
+4. Postgres
 
 ### Install Homebrew
 
@@ -23,6 +24,11 @@ Using the starter Elixir/Phoenix project, build a Github Actions CI/CD pipeline.
 ```bash
 brew install asdf
 asdf install elixir 1.13
+```
+
+### Install Postgres
+```bash
+brew install postgres
 ```
 
 ## Requirements
