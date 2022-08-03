@@ -29,7 +29,17 @@ mix test
 [https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
 
 ```
-mix compile
+# Get dependencies
+$ mix deps.get
+
+# Compile
+$ mix compile
+
+# Build for release application
+$ MIX_ENV=prod mix release
+
+# Start the application
+$ _build/prod/rel/build_a_pipeline/bin/build_a_pipeline start
 ```
 
 The built Elixir application will be in the `_build` folder in the `root` directory.
