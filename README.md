@@ -4,6 +4,27 @@
 
 Using the starter Elixir/Phoenix project, build a Github Actions CI/CD pipeline.
 
+## Setup
+
+### Requirements
+
+1. Elixir 1.13
+2. Erlang/OTP 24
+3. Some IDE
+
+### Install Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Install Elixir
+
+```bash
+brew install asdf
+asdf install elixir 1.13
+```
+
 ## Requirements
 
 1. Trigger the pipeline to run during a PR merge to `main`.
