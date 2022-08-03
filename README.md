@@ -31,7 +31,7 @@ asdf install elixir 1.13
 2. Tests need to pass before allowing the PR merge. 
 3. Elixir application needs to be compiled.
 4. Docker image needs to be built with the compiled Elixir application. 
-5. Include any code scanning steps as you see fit.
+5. Add the code scanning step as part of the pipeline.
 
 ## Github Actions Documentation
 
